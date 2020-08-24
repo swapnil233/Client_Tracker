@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-wrapper">
+            <div class="nav-left">
+                <h1>Client Tracker</h1>
+            </div>
+            <div class="nav-right">
+                <a href="#" class="nav-link">Log In</a>
+                <a href="#" class="nav-link">Sign Up</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyBoFeVSdaZRsVf92LYFIvfcY3yy87tfobQ",
+            authDomain: "client-tracker-7ec84.firebaseapp.com",
+            databaseURL: "https://client-tracker-7ec84.firebaseio.com",
+            projectId: "client-tracker-7ec84",
+            storageBucket: "client-tracker-7ec84.appspot.com",
+            messagingSenderId: "258044278663",
+            appId: "1:258044278663:web:8df154ea9dbcc2dd174522"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
