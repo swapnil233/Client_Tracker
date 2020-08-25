@@ -34,3 +34,16 @@ nav {
 #firebaseui-auth-container {
     margin-top: 300px;
 }
+
+.dashboard-wrapper {
+    width: 100%;
+    margin-top: 300px;
+    margin: 0 auto;
+}
+
+.loading-gif {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
