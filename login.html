@@ -5,14 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ClientTracker | Login</title>
+    <link rel="stylesheet" href="index.css">
+
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
     <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
     <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
     <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+
+    <nav>
+        <div class="nav-brand">
+            <a href="index.html" class="brand">ClientTracker</a>
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="main.html" class="nav-link-button" role="button">Dashboard</a>
+        </div>
+    </nav>
 
     <!-- The surrounding HTML is left untouched by FirebaseUI.
      Your app may use that space for branding, controls and other customizations.-->

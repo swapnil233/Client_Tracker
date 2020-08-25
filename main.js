@@ -7,8 +7,7 @@ var mainApp = {};
         if (user) {
             // User is signed in.
             uid = user.uid;
-            var email_id = user.email;
-            document.getElementById('name_inject').innerHTML = "Hello " + email_id;
+            document.getElementById('email_inject').innerHTML = "Hello " + user.email;
         } else {
             // nullify the uid
             uid = null;
